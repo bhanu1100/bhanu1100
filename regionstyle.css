@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:none;
+}
+body{
+    overflow-x:hidden;
+    font-family:'Roboto',sans-serif;
+    font-size:16px;
+    color:#333;
+   }
+   h1,h2,h3,h4,h5,h6{
+    font-family:'Butler';
+    font-weight:300;
+   }
+   h1,h2{
+    font-size:50px;
+    line-height:50px;
+    position: relative;
+    width: 100%;
+    min-height: 25vh;
+    padding: 2rem;
+    background-color:inherit;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   h3{
+    font-size:64px;
+   }
+   h5{
+    font-size:16px;
+   }
+   a{
+       text-decoration: none;
+       color: #333;
+       font-family:'Roboto',sans-serif;
+   }
+   section{
+       position: relative;
+   }
+   footer{
+     position: relative;
+     height: 250;
+   }
+/*LET'S DO CUSTOM STYLE*/
+header{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:20px 100px;
+ border-bottom:1px solid rgba(0,0,0,0.1);
+}
+header ul li{
+ list-style:none;
+ display:inline-table;
+ margin:0 25px;
+}
+header ul li a{
+ text-transform:uppercase;
+ position:relative;
+}
+header ul li a:before{
+    content:'';
+    position:absolute;
+    bottom:-22px;
+    left:0;
+   width:0;
+    height:1px;
+    background-color:#000;
+    transition:all ease 1s;
+  }
+  header ul li a:hover:before{
+    width:100%;
+  }
+ 
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    min-height: 25vh;
+    padding: 2rem;
+    background-color:inherit;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .label{
+    font-size: 50px;
+    font-family:'Butler';
+    font-weight:300;
+    line-height:96px;
+  }
+  .select-wrapper{
+    font-size: 20px;
+    padding:15px;
+  }
+
+
+
+  .form-submit {
+    padding: 0.6rem 1.3rem;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+    font-size: 0.95rem;
+    color: #1abc9c;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+    position: relative;
+  }
+  .form-submit:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  .form-control district report-district{
+    padding: 0.6rem 1.3rem;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+    font-size: 0.95rem;
+    color: #1abc9c;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+  }
